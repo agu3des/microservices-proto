@@ -1,4 +1,4 @@
-module github.com/agu3des/microservices-proto/golang
+module github.com/agu3des/microservices-proto/golang/payment
 
 go 1.25.1
 

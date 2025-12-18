@@ -4,6 +4,7 @@ set -e
 # --- CONFIGURAÇÕES ---
 # Ajustado para bater com o go_package do seu arquivo .proto
 GITHUB_USERNAME=agu3des
+GITHUB_EMAIL=anandaguedesdoo@gmail.com
 SERVICE_NAME=payment
 # ---------------------
 
