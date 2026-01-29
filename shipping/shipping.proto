@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package shipping;
+
+option go_package = "github.com/agu3des/microservices-proto/golang/shipping";
+
+service Shipping {
+  rpc Create(CreateShippingRequest) returns (CreateShippingResponse);
+}
+
+message ShippingItem {
+  string product_code = 1;
+  int32 quantity = 2;
+}
+
+message CreateShippingRequest {
+  int64 order_id = 1;
+  repeated ShippingItem items = 2;
+}
+
+message CreateShippingResponse {
+  int64 order_id = 1;
+  int32 delivery_days = 2; // Prazo em dias
+}
