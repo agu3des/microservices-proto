@@ -1,6 +1,6 @@
 module github.com/agu3des/microservices-proto/golang/payment
 
-go 1.22
+go 1.25
 
 require (
 	google.golang.org/grpc v1.77.0
